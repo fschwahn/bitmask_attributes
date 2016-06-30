@@ -1,3 +1,5 @@
+{<img src="https://travis-ci.org/fschwahn/bitmask_attributes.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/fschwahn/bitmask_attributes]
+
 == BitmaskAttributes
 
 Transparent manipulation of bitmask attributes for ActiveRecord, based on
