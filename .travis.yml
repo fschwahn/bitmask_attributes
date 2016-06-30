@@ -2,8 +2,8 @@ script: 'bundle exec rake test'
 language: ruby
 rvm:
   - 2.0.0
-  - 2.1
-  - 2.2
+  - 2.1.10
+  - 2.2.5
 
 gemfile:
   - gemfiles/3.2.gemfile
@@ -16,5 +16,5 @@ matrix:
   exclude:
     - rvm: 2.0.0
       gemfile: gemfiles/5.0.gemfile
-    - rvm: 2.1
+    - rvm: 2.1.10
       gemfile: gemfiles/5.0.gemfile
